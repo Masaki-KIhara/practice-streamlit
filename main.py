@@ -1,7 +1,3 @@
-import streamlit as st
-import numpy as np
-import pandas as pd
-from PIL import Image
 import time 
 
 st.title("Streamlit 超入門")
@@ -33,24 +29,6 @@ expander3.write("問い合わせ回答３")
 expander4 = st.expander("問い合わせ")
 expander4.write("問い合わせ回答４")
 
-# # テキストボックス
-# text = st.text_input("あなたの趣味を教えてください。")
-# "あなたの趣味は",text,"です。"
-# # スライダー
-# condition = st.slider("あなたの今の調子は？",0,100,50)
-# "あなたの今の調子は",condition,"です。"
-
-# "あなたの趣味:",text
-# "コンディション:",condition
-
-# セレクトボックス
-# option = st.selectbox("あなたが好きな数字を教えてください",list(range(1,11)))
-# "あなたの好きな数字は",option,"です。"
-
-# チェックボックスチェック時に表示
-# if st.checkbox("Show Image"):
-#     img = Image.open("image.png")
-#     st.image(img, caption="test", use_column_width=True)
 
 
 
